@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "Node16",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "target": "ES2022",
+      "moduleResolution": "NodeNext",
+      "sourceMap": true,
+      "outDir": "lib",
+      "declaration": true,
+    },
+    "lib": [
+        "ES2022"
+    ],
+    "include": [
+        "src/**/*", 
+    ]
+  }

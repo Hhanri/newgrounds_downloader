@@ -1,0 +1,30 @@
+{
+  "name": "newgrounds_downloader",
+  "version": "1.0.0",
+  "description": "newgrounds downloader",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.8.0"
+  }
+}
